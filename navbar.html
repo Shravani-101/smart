@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSUPS consultancy</title>
+    <link rel="shortcut icon" href="/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $("#first").click(function(){
+        $(".dropdown-menu").slideDown(".dropdown-item"),
+        $(".dropdown-menu").click(function(){$(".dropdown-item").show(),
+        $(".dropdown-menu").mouseout(function(){$(".dropdown-item").slideup("fast")});
+        });
+        });
+        });
+    </script>
+
+</head>
+<body>
+    
+        <div class="navbar navbar-default navbar-expand-sm navbar-dark bg-dark" style="background-color: rgb(159, 236, 191);">
+            <div class="container" style="padding:0px;">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"></a>
+                        <img src="favicon.png" alt="COSUPS logo">
+                    
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav" style="display: block;float: right;padding-top: 23px;font-size: 17px;">
+                        <li class="nav-item"><a class="active" href="index.html">HOME</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="first" data-toggle="dropdown" href="#" role="button">DIRECTORY</a>
+                            <div class="dropdown-menu" style="background-color:rgb(159, 236, 191);width: 200px;height: 160px;">
+                                <a class="dropdown-item" href="#one">PROFESSIONALS</a><br>
+                                <a class="dropdown-item" href="#two">ADVOCATE</a><br>
+                                <a class="dropdown-item" href="#two">CHARTERED ACCOUNTANT</a><br>
+                                <a class="dropdown-item" href="#two">COMPANY SECRETARY</a><br>
+                                <a class="dropdown-item" href="#two">AGENTS</a><br>
+                                <a class="dropdown-item" href="#two">START-UPS</a><br>
+                                <a class="dropdown-item" href="#two">INSTITUTES</a><br>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">CUSTOMERS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">ADVISORY BOARD</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">ABOUT US</a></li>
+                    </ul>
+                   
+                </div>
+            </div>
+        </div>
+    
+</body>
+</html>
+
+<li class="nav-item"><b><a class="nav-link" style="padding-right:25px;" href="index.html">Home</a></b></li>
+
+<div id="blog" class="container">
+    <img src="pic2.jpg" alt="image1" class="image">
+    <div class="overlay">
+      <div class="text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores porro,
+          molestias sed error aliquid, beatae natus ratione inventore voluptatem pariatur
+          sapiente. Voluptate consequatur obcaecati cupiditate ratione perferendis ullam sint maiores.</p>  
+          <a href="#">Read more...</a>
+      </div>
+    </div>
+  </div>

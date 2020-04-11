@@ -1,0 +1,95 @@
+/*.tech-slideshow {
+  height: 100px;
+  max-width: 50.7%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border:0px hidden rgb(240, 12, 12);
+}
+
+.mover-1 {
+  height: 150px;
+  width: 10000px;
+  
+  position: absolute;
+  overflow-x:hidden;
+  top: 0;
+  left: 0;
+
+  animation: moveSlideshow 5s linear infinite;
+}
+
+.mover-1 img {
+  display:inline-block;
+  vertical-align:middle;
+  width:100px;
+  height:100px;
+  padding:10px;
+  margin-right:25px;
+  /*margin:0;*/
+/*}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-520px);  
+  }
+}*/
+ 
+/*why customers trust us code*/
+
+/* CSS talk bubble */
+.talk-bubble {
+  /*margin: 40px;*/
+  margin-left: 20%;
+  display: inline-block;
+  position: relative;
+	width: 300px;
+	height: auto;
+	background-color: rgb(206, 212, 212);
+}
+.border{
+  border: 8px solid #666;
+}
+.round{
+  border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+
+}
+
+/* Right triangle placed top left flush. */
+/*.tri-right.border.left-top:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -40px;
+	right: auto;
+  top: -8px;
+	bottom: auto;
+	border: 32px solid;
+	border-color: #666 transparent transparent transparent;
+}
+.tri-right.left-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -20px;
+	right: auto;
+  top: 0px;
+	bottom: auto;
+	border: 22px solid;
+	border-color: rgb(167, 247, 247) transparent transparent transparent;
+}*/
+
+.talktext{
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}
+.talktext p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}

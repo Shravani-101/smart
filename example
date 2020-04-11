@@ -1,0 +1,74 @@
+//toolbar
+<nav class="navbar navbar-default navbar-expand-sm navbar-light bg-light" >
+        <div class="container" style="padding:0px;">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <img src="favicon.png" alt="COSUPS logo">
+            </a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+          </div>
+            
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" style="text-transform:uppercase;">
+                    <li><a href="/One">Item 1</a></li>
+                    <li><a href="/Two">Item 2</a></li>
+                    <li><a href="/Three">Item 3</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav>
+
+
+
+//css
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+
+    text-decoration: none;
+  }
+  
+ 
+  
+  
+  .navbar-brand img{
+    width:80px;
+    height:80px;
+    padding: 0px 5px 15px 5px;
+    margin: 0px 5px 15px 5px ;
+  }
+
+
+<img src="pic2.jpg" alt="images" style="border-radius: 50%;width:70px;height:70px;margin-bottom: 250px;">
+              <div class="talk-bubble tri-right left-top">
+                <div class="talktext">
+                  <p>And now using .round we can smooth the sides down. Also uses 
+                     .btm-left to show a triangle at the bottom flush to the left.
+                     cabo facere laudantium ipsa placeat dolor aliquid hic, perfere
+                    ndis ducimus, totam esse est velit consequuntur! Provident accu
+                    samus necessitatibus repudiandae omnis quas ex.</p>
+                </div>
+              </div>
+
+<h3 class="my-4 text-white">About<span class="mx-2 font-italic text-warning ">Eduonix</span></h3>
+ 
